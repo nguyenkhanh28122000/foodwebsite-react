@@ -1,0 +1,77 @@
+.input-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.input-body .input__item {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.input-body .input__item label{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.input-body .input__item input{
+    background: var(--bgr-color);
+    height: 4rem;
+    padding: 0 1rem;
+    text-transform: lowercase;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    border: 0.1rem solid rgba(0, 0, 0, .2);
+}
+
+.input-body .input__item textarea{
+    font-size: 1.6rem;
+    height: 25rem;
+    resize: none;
+    background: var(--bgr-color);
+    padding: 1rem;
+    text-transform: lowercase;
+    border-radius: .5rem;
+    border: 0.1rem solid rgba(0, 0, 0, .2);
+}
+
+.input-body .input__item input::placeholder {
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.input-body .input__item textarea:focus,
+.input-body .input__item input:focus {
+    border-color: var(--green-color);
+}
+
+#dab-input::placeholder {
+    color: var(--green-color);
+}
+
+/* ORDER section CSS END */
+
+@media (max-width: 468px) {
+     /* review */
+    .input-body {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .input-body .input__item {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-body .input__item label {
+        font-size: 1.7rem;
+    }
+
+    .input-body .input__item input {
+        height: 5rem;
+    }
+}

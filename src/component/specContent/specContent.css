@@ -1,0 +1,40 @@
+/* <!-- TODAY'S SPECIALITY section CSS START --> */
+.speciality-body__item {
+    padding: 1.5rem;
+}
+
+.speciality-body__item .box__image {
+    height:25rem;
+    margin-bottom: 2rem;
+}
+
+.speciality-body__item .box__image img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.speciality-body__item .box__image a {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.speciality-body__item .star {
+    font-size: 1.3rem;
+}
+
+.speciality-body__item p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+}
+
+.speciality-body__item .add-price {
+    justify-content: left;
+}
+
+.speciality-body__item .add-price .btn {
+    margin-right: 2rem;
+    margin-left: 0;
+}
+/* <!-- TODAY'S SPECIALITY section CSS END --> */

@@ -1,0 +1,118 @@
+/*===================== MEDIA QUERSIES ================= */
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+       /* Home Slide */
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    
+    .home-content span{
+        font-size: 4.5rem;
+    }
+    
+    .home-content p{
+        font-size: 2.1rem;
+    }
+
+    .about-content h3 {
+        font-size: 3.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-icon__bars {
+        display: inline-block;
+    }
+
+    .header-nav {
+        position: absolute;
+        top: 100%;left: 0;right: 0;
+        background: #fff;
+        border-top: 0.1rem solid rgb(0,0,0,.2);
+        padding: 0 2rem;
+        border-bottom: 0.1rem solid rgb(0,0,0,.2);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header-nav.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .nav__item {
+        width: 100%;
+        display: block;
+        margin: 1rem;
+        padding: 2rem 1rem;
+        font-size: 1.9rem;
+        margin-left: unset;
+        background:var(--bgr-color);
+    }
+
+    /* Glass search */
+    .search-icon__glass {
+        font-size: 3rem;
+    }
+
+    /* Home Slide */
+    .home-content {
+        margin-bottom: 4rem
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+    
+    .home-content .span{
+        font-size: 4rem;
+    }
+    
+    .home-content p{
+        font-size: 2rem;
+    }
+
+    .about-content h3 {
+        font-size: 3.4rem;
+    }
+
+}
+
+@media (max-width: 468px) {
+    html {
+        font-size: 45%;
+    }
+
+    /* Glass search */
+    .search-icon__glass {
+        font-size: 2.5rem;
+    }
+
+    .about-content h3 {
+        font-size: 3rem;
+    }
+
+     /* review */
+    .input-body {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .input-body .input__item {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-body .input__item label {
+        font-size: 1.7rem;
+    }
+
+    .input-body .input__item input {
+        height: 5rem;
+    }
+}

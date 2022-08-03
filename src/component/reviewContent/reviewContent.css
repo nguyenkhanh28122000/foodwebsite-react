@@ -1,0 +1,51 @@
+/* WHAT THEY SAY section CSS START */
+
+.slide {
+    border: 0.1rem solid rgba(0, 0, 0, .4);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.personal .avatar{
+    display: flex;
+    margin-right: auto;
+}
+
+.personal .avatar img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar__name {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar__name span {
+    font-size: 2rem;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.quote-icon {
+    font-size: 7rem;
+    color: var(--light-color);
+    opacity: .7;
+}
+
+.review-text {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    font-weight: 500;
+}
+/* WHAT THEY SAY section CSS END */

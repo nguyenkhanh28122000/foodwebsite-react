@@ -1,0 +1,11 @@
+.footer-version {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black-color);
+    margin-top: 2rem;
+}
+
+.footer-name-web {
+    color: var(--green-color);
+    margin-left: 1rem;
+}

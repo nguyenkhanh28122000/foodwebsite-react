@@ -1,0 +1,30 @@
+/* POPULAR DISHES START */
+
+.dishes-body__item {
+    padding: 2rem;
+    text-align: center;
+}
+
+.dishes-body__item .box__image {
+    height: 17rem;
+    /* width: 18rem; */
+}
+
+.dishes-body__item:hover .box__image-icon:nth-child(2){
+    left: 1.5rem;
+}
+
+.dishes-body__item:hover .box__image-icon:nth-child(3){
+    right: 1.5rem;
+}
+
+.dishes-body__item .box__image-icon:nth-child(2)  {
+    left: -15rem;
+    /* transform: left solid .5s; */
+}
+
+.dishes-body__item .box__image-icon:nth-child(3) {
+    right: -15rem;
+    /* transform: right solid .5s; */
+}
+/* POPULAR DISHES END */

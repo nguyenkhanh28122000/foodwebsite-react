@@ -1,0 +1,16 @@
+/* section titles */
+.title{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--green-color);
+}
+
+.title-name{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 3rem;
+    font-weight: 600;
+}

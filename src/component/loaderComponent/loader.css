@@ -1,0 +1,21 @@
+/* LOADER */
+.web-load {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--white-color);
+    z-index: 10000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.web-load img {
+    width:35rem;
+}
+
+.web-load.load-out {
+    top: 110%;
+    opacity: 0;
+}

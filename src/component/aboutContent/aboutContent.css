@@ -1,0 +1,51 @@
+/* WHY CHOOSE US section CSS START */
+.about-img img {
+    width: 100%;
+}
+
+.about-content h3 {
+    color: var(--black-color);
+    font-size: 4rem;
+    padding: .5rem 0;
+}
+
+.about-content p {
+    color:var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    line-height:2;
+}
+
+.about-content__fas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+
+.about-content__fas .fas__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 17rem;
+
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    background: var(--bgr-color);
+    color: var(--black-color);
+    border: 0.1rem solid rgba(0, 0, 0, .2);
+}
+
+.about-content__fas .fas__item i {
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    color: var(--green-color);
+}
+
+.about-content .btn {
+    margin-top: 1.5rem;
+}
+
+/* WHY CHOOSE US section CSS END */

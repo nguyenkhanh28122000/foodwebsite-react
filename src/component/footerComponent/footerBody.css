@@ -1,0 +1,35 @@
+/* FOOTER CSS START */
+.footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, .2);
+}
+
+.footer__item {
+    flex: 1 1 25rem;
+    margin-bottom: 3rem;
+}
+
+.footer__item--title {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 1.3rem;
+}
+
+.footer__item--list {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer__item--list a{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--black-color);
+}
+
+.footer__item--list a:hover {
+    color: var(--green-color);
+    text-decoration:underline;
+}
+/* END */

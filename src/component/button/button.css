@@ -1,0 +1,23 @@
+/* ============== btn ================= */
+.btn {
+    display: block;
+    width: 14rem;
+    height: 4rem;
+    color: var(--white-color);
+    background: var(--black-color);
+    text-align: center;
+    line-height:4rem;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    transition:width linear .3s,font-size linear .3s;
+}
+
+.btn.btnMove:hover {
+    width: 15rem;
+    font-size:1.7rem;
+    background-color: var(--green-color);
+}
+
+.btn.btnStand:hover {
+    background-color: var(--green-color);
+}
